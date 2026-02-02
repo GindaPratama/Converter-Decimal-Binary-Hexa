@@ -1,16 +1,37 @@
-# React + Vite
+# 🔢 Binary, Decimal, & Hexadecimal Converter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![Netlify](https://img.shields.io/badge/netlify-%2300C7B7.svg?style=for-the-badge&logo=netlify&logoColor=white)
 
-Currently, two official plugins are available:
+A minimal, high-performance number system converter built with **React.js** and **Vite**. This application provides real-time bidirectional conversion between Binary, Decimal, and Hexadecimal formats with a clean, dark-themed UI.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
+**View Project:** [Klik Disini Untuk Membuka Website](https://LINK_NETLIFY_KAMU_DISINI.app)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Key Features
+* **Real-time Conversion**: Changing one input instantly updates all other formats.
+* **Bidirectional Logic**: Accepts input from any field (Binary, Decimal, or Hex).
+* **Input Validation**: Automatically prevents invalid characters (e.g., typing '2' in Binary field).
+* **Responsive UI**: Optimized for both desktop and mobile devices.
+* **Dark Mode**: Modern, developer-friendly interface design.
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
+* **Frontend Library**: React 18
+* **Build Tool**: Vite (Lightning fast HMR)
+* **Styling**: Custom CSS3 (Flexbox layout)
+* **Deployment**: Netlify
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 💻 Getting Started (Local Development)
+
+To run this project locally on your machine, follow these steps:
+
+### 1. Clone the repository
+```bash
+git clone [https://github.com/GinnzPratama/Converter-Decimal-Binary-Hexa.git](https://github.com/GinnzPratama/Converter-Decimal-Binary-Hexa.git)
+cd Converter-Decimal-Binary-Hexa
