@@ -1,0 +1,95 @@
+/* Reset Style */
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #02021a; /* Background Gelap Biru */
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container Utama */
+.main-container {
+  text-align: center;
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+}
+
+.title {
+  color: #61dafb;
+  margin-bottom: 50px;
+}
+
+/* Kartu Converter */
+.converter-card {
+  background-color: #050520;
+  border: 1px solid #1f1f44;
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Layout Baris Input */
+.input-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+/* Label Warna-Warni */
+label {
+  font-weight: bold;
+  width: 140px;
+  flex-shrink: 0;
+  text-align: right;
+  margin-right: 15px;
+}
+.label-binary {
+  color: #3b82f6;
+} /* Biru */
+.label-decimal {
+  color: #ef4444;
+} /* Merah */
+.label-hex {
+  color: #22c55e;
+} /* Hijau */
+
+/* Kotak Input */
+.input-field {
+  background-color: #0a0a2a;
+  border: 1px solid #333;
+  color: #fff;
+  padding: 10px;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  flex: 1;
+  font-family: monospace;
+}
+
+/* Efek Fokus (Glowing Border) */
+.input-binary:focus {
+  border-color: #3b82f6;
+  outline: none;
+  box-shadow: 0 0 8px #3b82f6aa;
+}
+.input-decimal:focus {
+  border-color: #ef4444;
+  outline: none;
+  box-shadow: 0 0 8px #ef4444aa;
+}
+.input-hex:focus {
+  border-color: #22c55e;
+  outline: none;
+  box-shadow: 0 0 8px #22c55eaa;
+}
