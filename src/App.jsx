@@ -64,7 +64,6 @@ function App() {
           />
         </div>
 
-        {/* Input Hexadecimal (Hijau) */}
         <div className="input-group">
           <label className="label-hex">Hexadecimal:</label>
           <input
